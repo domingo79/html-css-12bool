@@ -1,52 +1,30 @@
-.row .col-1
+
+/* degub text centrato  */
+.dbg_lh_txt
+{
+    line-height: 250px;
+    text-align: center;
+}
+
+body
 {
     text-align: center;
-    line-height: 250px;
 }
 
-.row .col-12
+[class*="col-"]
 {
-    text-align: center;
-    line-height: 250px;
+    background-color: #FFC0CB;
+    padding: 5px;
+    border: 1px solid black;
 }
 
-.row .col-8
-{
-    text-align: center;
-    line-height: 250px;
-}
 
-.row .col-2
-{
-    text-align: center;
-    line-height: 250px;
-}
-
-.row .col-6
-{
-    text-align: center;
-    line-height: 250px;
-}
-
-.small_row
-{
-    width: calc(100% - 10px);
-    margin: 0px 5px;
-    float: left;
-}
-
-.small_row::after
-{
-    content: '';
-    display: table;
-    clear: both;
-}
-
-.small_row > .col-2, 
-.small_row > .col-8,
-.small_row > .col-6
+.col-6 .row .col-2,
+.col-6 .row .col-8,
+.col-6 .row .col-6
 {
     background-color: #F07F80;
     border: 1px solid white;
-  
 }
+
+
