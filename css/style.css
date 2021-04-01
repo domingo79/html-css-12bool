@@ -1,0 +1,52 @@
+.row .col-1
+{
+    text-align: center;
+    line-height: 250px;
+}
+
+.row .col-12
+{
+    text-align: center;
+    line-height: 250px;
+}
+
+.row .col-8
+{
+    text-align: center;
+    line-height: 250px;
+}
+
+.row .col-2
+{
+    text-align: center;
+    line-height: 250px;
+}
+
+.row .col-6
+{
+    text-align: center;
+    line-height: 250px;
+}
+
+.small_row
+{
+    width: calc(100% - 10px);
+    margin: 0px 5px;
+    float: left;
+}
+
+.small_row::after
+{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.small_row > .col-2, 
+.small_row > .col-8,
+.small_row > .col-6
+{
+    background-color: #F07F80;
+    border: 1px solid white;
+  
+}
